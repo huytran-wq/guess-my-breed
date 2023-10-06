@@ -1,35 +1,14 @@
-# Next.js + Jest
+# Guess My Breed
 
-This example shows how to configure Jest to work with Next.js.
+A simple game to guess the breed of the dog in the picture, inspired by [Worldle](https://worldle.teuteuf.fr/).
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+This is mostly to get my feet wet with NextJS
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+## How to Play
 
-## Deploy your own
+See the photo, and make a guess until you're correct or give up all the times like me 😂
+![Screenshot](image.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
+## Contribution
 
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
-
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
-
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Running Tests
-
-```bash
-npm test
-```
+Feel free to create an issue or a PR if you would like to contribute!
