@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Guess My Breed</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/dog-emoji.png" />
       </Head>
 
       <main>
@@ -22,14 +22,19 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className="bg-gray-200 py-4 px-8 flex items-center justify-center fixed bottom-0 w-full">
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/huytran-wq"
           target="_blank"
           rel="noopener noreferrer"
         >
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image
+              src="/github-logo.png"
+              alt="GitHub Logo"
+              width={72}
+              height={16}
+            />
           </span>
         </a>
       </footer>
